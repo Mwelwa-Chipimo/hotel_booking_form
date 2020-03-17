@@ -36,6 +36,7 @@
 
 
 
+
   </style>
 </head>
 <body background="images/bg.jpg">
@@ -51,7 +52,7 @@
       </ol>
   
       <!-- Wrapper for slides -->
-      <div class="carousel-inner">
+      <div class="carousel-inner" style="width: 100%; margin: 0 auto">
         <div class="item active">
           <img src="images/htl1.jpg"  style="width:100%;">
         </div>
@@ -113,9 +114,12 @@
           <input type="text" id="fname" name="fname" value=""><br>
           <label for="lname">Last name:</label><br>
           <input type="text" id="lname" name="lname" value=""><br><br>
+          <form class="form-inline">Email Address:
+            <input type="email" class="form-control" size="50" placeholder="Email Address"> <br>
+            <button type="button" class="btn btn-danger">Sign Up</button>
+          </form>
           
           
-          <input type="submit" value="Submit">
         </form>  </div>
         <div class="panel-footer"></div>
       </div>
@@ -128,6 +132,9 @@
     </div>
   </div>
 </div><br>
+
+
+
 
 <div class="container">    
   <div class="row">
@@ -166,11 +173,7 @@
 </div><br><br>
 
 <footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
+  
 </footer>
 
 </body>
