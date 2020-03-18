@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Hotel Space</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -33,13 +33,14 @@
       padding: 25px;
     }
 
+    
 
 
 
 
   </style>
 </head>
-<body background="images/bg.jpg">
+<body background="images/bg1.jpg">
 
   <div class="container">
      
@@ -93,7 +94,7 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#hotels">Hotels</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Contact</a>
@@ -103,6 +104,8 @@
     </li>
   </ul>
 </nav>
+<h1 style="color: aqua ; font:  sans-serif;">Hotel Space</h1>
+<h2 style="color: azure;">-Your Vission Your Intermission-</h2>
 
 <div class="container">    
   <div class="row">
@@ -127,11 +130,18 @@
     <div class="col-sm-4"> 
       
     </div>
-    
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Check in/Out</div>
+        <div class="panel-body">   </div>
+        <div class="panel-footer"></div>
+      </div>
+    </div>
       </div>
     </div>
   </div>
-</div><br>
+</div>
+<br>
 
 
 
@@ -141,32 +151,18 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Hotel</div>
-        <div class="panel-body"> <label for="cars">Choose a hotel:</label>
-
-          <select id="cars">
-            <option value="volvo">Radison Blu</option>
-            <option value="saab">Radison Red</option>
-            <option value="opel">Hotel Space</option>
-            <option value="audi">F1</option>
-          </select>  
-          <label for="cars">Compare a hotel:</label>
-
-          <select id="cars">
-            <option value="volvo">Radison Blu</option>
-            <option value="saab">Radison Red</option>
-            <option value="opel">Hotel Space</option>
-            <option value="audi">F1</option>
-          </select> </div>
+        <form action="/action_page.php">
+          <p>Please select your hotel: </p>
+          <input type="radio" id="male" name="hotel" value="hs">
+          <label for="male">Hotel Space</label><br>
+          <input type="radio" id="female" name="hotel" value="rb">
+          <label for="female">Raddison Blu</label><br>
+          <input type="radio" id="other" name="hotel" value="formula 1">
+          <label for="other">Formula 1</label>
         <div class="panel-footer"><input type="submit" value="Submit"></div>
       </div>
     </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">Check in/Out</div>
-        <div class="panel-body">   </div>
-        <div class="panel-footer"></div>
-      </div>
-    </div>
+    
     
     </div>
   </div>
