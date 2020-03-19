@@ -17,7 +17,8 @@
   }
 
   body {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: black;
     background-size: 1600px 1600px;
+    
   }

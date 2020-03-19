@@ -42,6 +42,26 @@
 </head>
 <body background="images/bg1.jpg">
 
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/astr.png" alt="logo" style="width: 35px;">
+    </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#hotels">Hotels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Compare</a>
+      </li>
+    </ul>
+  </nav>
+
   <div class="container">
      
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -85,25 +105,7 @@
 
 
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
-    <img src="images/astr.png" alt="logo" style="width:40px;">
-  </a>
-  
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#hotels">Hotels</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Compare</a>
-    </li>
-  </ul>
-</nav>
+
 <h1 style="color: aqua ; font:  sans-serif;">Hotel Space</h1>
 <h2 style="color: azure;">-Your Vission Your Intermission-</h2>
 
@@ -143,9 +145,9 @@
 </div>
 <br>
 
+<div id="example1"> </div>
 
-
-
+<a name="#hotels" >.</a>
 <div class="container">    
   <div class="row">
     <div class="col-sm-4">
@@ -153,12 +155,12 @@
         <div class="panel-heading">Hotel</div>
         <form action="/action_page.php">
           <p>Please select your hotel: </p>
-          <input type="radio" id="male" name="hotel" value="hs">
-          <label for="male">Hotel Space</label><br>
-          <input type="radio" id="female" name="hotel" value="rb">
-          <label for="female">Raddison Blu</label><br>
-          <input type="radio" id="other" name="hotel" value="formula 1">
-          <label for="other">Formula 1</label>
+          <input type="radio" id="Hotel space" name="hotel" value="hs">
+          <label for="male">Hotel Space</label>  <div ><img src="images/htlspc.jpeg" width="200px"> </div> <p>Hotel Space a luxurious out of this world experience you will never forget </p> <br> <p >Includes bar Restruant and pool</p>
+          <input type="radio" id="Raddison B" name="hotel" value="rb">
+          <label for="female">Raddison Blu</label>   <div><img src="images/rblu.jpg"  width="200px" >       </div>   <p>Raddison Blu Stylish living spaces for business and leisure in some of the world’s favorite destinations  </p>           <br> <p>Includes Bar and Restraunt</p>
+          <input type="radio" id="Raddison R" name="hotel" value="formula 1">
+          <label for="other">Raddison Red</label> <div> <img src="images/rred.jpg" width="200px"   >         </div> <p> Art, music, design, fashion: hotels with real urban energy</p> <br> <p>Includes Restruant</p>
         <div class="panel-footer"><input type="submit" value="Submit"></div>
       </div>
     </div>
@@ -166,7 +168,8 @@
     
     </div>
   </div>
-</div><br><br>
+</div>
+</body>
 
 <footer class="container-fluid text-center">
   
